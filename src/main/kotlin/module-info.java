@@ -1,4 +1,4 @@
-module JavaFXControllerTool {
+module carte.controllerfx {
     requires javafx.controls;
     requires javafx.fxml;
     requires kotlin.stdlib;
