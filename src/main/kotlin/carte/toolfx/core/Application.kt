@@ -5,7 +5,7 @@ import javafx.scene.Parent
 import javafx.scene.Scene
 import javafx.stage.Stage
 
-inline fun <reified controller: Controller> runFXMLApplication(
+inline fun <reified controller: Controller> runFxmlScreen(
     stage: Stage,
     title: String,
     width: Double = 500.0,
