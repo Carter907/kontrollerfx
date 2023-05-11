@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb27a9cf-e283-435f-9dbc-2cca538b05fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/Application.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/FxmlElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/Screen.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/Application.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/Controller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/Controller.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JavaFXControllerTool-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/carte-controllerfx-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/carte-controllerfx-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/carte-controllerfx.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/carte-controllerfx.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/carte/toolfx/core/Controller$setLater$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/carte/toolfx/core/Controller$setLater$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/carte/toolfx/core/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/carte/toolfx/core/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javafx-controller-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/FxmlElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/carte/toolfx/core/Element.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +136,16 @@
       <workItem from="1683688646432" duration="83000" />
       <workItem from="1683688872478" duration="219000" />
       <workItem from="1683689120692" duration="3000" />
+      <workItem from="1683689196675" duration="95000" />
+      <workItem from="1683753540693" duration="12000" />
+      <workItem from="1683753603015" duration="74000" />
+      <workItem from="1683753691933" duration="114000" />
+      <workItem from="1683753813447" duration="48000" />
+      <workItem from="1683754054887" duration="644000" />
+      <workItem from="1683755241034" duration="58000" />
+      <workItem from="1683758356245" duration="100000" />
+      <workItem from="1683758856621" duration="12000" />
+      <workItem from="1683759979487" duration="296000" />
     </task>
     <servers />
   </component>

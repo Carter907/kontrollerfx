@@ -1,5 +1,6 @@
 package carte.toolfx.core
 
+import javafx.application.Platform
 import javafx.fxml.Initializable
 import javafx.scene.Node
 import javafx.scene.Scene
@@ -30,11 +31,15 @@ abstract class Controller : Initializable {
 
     override fun initialize(p0: URL?, p1: ResourceBundle?) {
         GlobalScope.launch(Dispatchers.Default) {
+            launch {
+                setLater();
+            }.join();
+            Platform.runLater {
+                onCreate();
+            }
 
-            setLater();
-
-            onCreate();
         }
+
     }
 
 

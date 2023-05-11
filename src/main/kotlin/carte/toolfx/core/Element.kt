@@ -1,6 +1,6 @@
 package carte.toolfx.core
 
-annotation class FxmlElement(
+annotation class Element(
     val pathToFXML: String
 ) {
 
