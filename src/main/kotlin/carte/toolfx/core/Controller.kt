@@ -12,10 +12,12 @@ import java.net.URL
 import java.util.*
 
 abstract class Controller : Initializable {
-
     protected lateinit var scene: Scene;
     protected lateinit var window: Window;
-    lateinit var stage: Stage;
+    var runAfterCreated: (Controller.() -> Unit) = {};
+
+
+    var stage: Stage = Stage();
 
     private suspend fun setLater(after: () -> Unit = {}) {
 
@@ -36,11 +38,13 @@ abstract class Controller : Initializable {
             }.join();
             Platform.runLater {
                 onCreate();
+                runAfterCreated?.invoke(this@Controller);
             }
 
         }
 
     }
+
 
 
     abstract fun onCreate();

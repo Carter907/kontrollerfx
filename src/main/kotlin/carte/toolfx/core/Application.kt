@@ -44,18 +44,21 @@ inline fun <reified controller : Controller> runFxmlScreen(
 }
 
 inline fun <reified element : Controller> runFxmlElement(
-    context: Controller
-): Node {
+    context: Controller,
+    noinline afterCreated: element.() -> Unit
+): element {
     var loader: FXMLLoader;
     try {
         loader = FXMLLoader(element::class.java.getResource((element::class.annotations[0] as Element).pathToFXML))
     } catch (e: ArrayIndexOutOfBoundsException) {
         throw IllegalArgumentException("element class must be annotated with @Element")
     }
-    var node = loader.load<Node>()
+    loader.load<Node>()
 
     val controller = loader.getController<element>()
     controller.stage = context.stage;
+    controller.runAfterCreated = afterCreated as (Controller.() -> Unit)
 
-    return node;
+
+    return controller;
 }
