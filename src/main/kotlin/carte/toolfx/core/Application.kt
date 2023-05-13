@@ -45,7 +45,7 @@ inline fun <reified controller : Controller> runFxmlScreen(
 
 inline fun <reified element : Controller> runFxmlElement(
     context: Controller,
-    noinline afterCreated: element.() -> Unit
+    noinline afterCreated: element.() -> Unit = {}
 ): element {
     var loader: FXMLLoader;
     try {
