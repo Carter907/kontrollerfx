@@ -57,7 +57,7 @@ inline fun <reified element : Controller> runFxmlElement(
 
     val controller = loader.getController<element>()
     controller.stage = context.stage;
-    controller.runAfterCreated = afterCreated as (Controller.() -> Unit)
+    controller.setOnAfterCreated(afterCreated);
 
 
     return controller;

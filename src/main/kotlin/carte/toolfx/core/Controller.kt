@@ -14,7 +14,7 @@ import java.util.*
 abstract class Controller : Initializable {
     protected lateinit var scene: Scene;
     protected lateinit var window: Window;
-    var runAfterCreated: (Controller.() -> Unit) = {};
+    private var runAfterCreated: (Controller.() -> Unit) = {};
 
 
     var stage: Stage = Stage();
@@ -45,7 +45,9 @@ abstract class Controller : Initializable {
 
     }
 
-
+    fun <controller: Controller> setOnAfterCreated(afterCreated: controller.() -> Unit) {
+        runAfterCreated = afterCreated as Controller.() -> Unit;
+    }
 
     abstract fun onCreate();
 
